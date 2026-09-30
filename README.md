@@ -1,5 +1,8 @@
 # Coordinate Displacement Algorithm (CDA) — Reproducibility Suite
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 This repository contains the numerical verification scripts for the **Coordinate Displacement Algorithm (CDA)** manuscript. It enables reviewers and readers to independently execute and validate the benchmark performance on the extreme degree test polynomial.
 
 ## Benchmark Target
