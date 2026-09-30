@@ -3,6 +3,7 @@ Coordinate Displacement Algorithm (CDA) — Reproducibility Suite
 This repository contains the numerical verification scripts for the Coordinate Displacement Algorithm (CDA) manuscript. It enables reviewers and readers to independently execute and validate the benchmark performance on the extreme degree test polynomial.
 Benchmark Target
 The stress test evaluates the root convergence for the 60,000^{\text{th}}-degree polynomial equation:
+
 Prerequisites & Installation
 To avoid floating-point overflow (x^{60000} \to \infty), the implementation uses standard arbitrary-precision arithmetic (gmpy2 / MPFR library).
 Requirements
@@ -12,10 +13,12 @@ Setup Instructions
 1. Clone the repository
 git clone https://github.com/krllatonio-dot/CDA-Stress-Test.git
 cd CDA-Stress-Test
+
 2. Install dependencies
 pip install gmpy2
 Running the Verification Test
 Run the benchmark script directly from your terminal:
+
 python cda_stress_test.py
 Expected Output
 ================================================================================
@@ -30,6 +33,7 @@ Iter (t)  Coordinate State (x_t)        Residual f(x_t)          Step Delta
 [✓] Final Computed Root (x*): 0.9999948305525564
 [✓] Final Function Residual:  0.0000000000000000e+00
 Citation
+
 If you find this code or algorithm useful for your research, please cite the primary manuscript:
 @article{CDA2026,
 title={Coordinate Displacement Algorithm for Extreme-Degree Polynomial Root Finding},
